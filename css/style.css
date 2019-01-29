@@ -13,7 +13,7 @@ p{ /*selects all p elements*/
 
 figcaption {
   font-weight: normal;
-  font-size: 10em;
+  font-size: 0.75em;
   line-height: 1.5em;
   font-family: Georgia, "New Times Roman", serif;
 }
