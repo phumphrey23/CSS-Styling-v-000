@@ -24,9 +24,14 @@ figcaption { /* selects only the figcaption element tag */
   text-align: center;
 }
 
-/*Class selectors*/
+/*Class selectors (can apply to multiple elements)*/
 .milk-text{ /* selects elements with class="milk-text"*/
   font: bold 2.6em 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
+}
+
+/* ID selectors (apply to one unique element per page)*/
+#logo{ /* selects elements with id="logo"*/
+  background: aqua;  
 }
