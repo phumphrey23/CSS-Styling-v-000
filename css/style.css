@@ -35,3 +35,8 @@ figcaption { /* selects only the figcaption element tag */
 #logo{ /* selects elements with id="logo"*/
   background: aqua;  
 }
+
+/* Descendent Selector */
+#logo h1{ /*selects <h1> only if it's inside the id="logo"*/
+  font-family: Elsie;
+}
