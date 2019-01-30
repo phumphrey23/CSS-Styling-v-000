@@ -53,5 +53,5 @@ figcaption { /* selects only the figcaption element tag */
 }
 
 #details a:active{
-  color: red;
+  color: blue;
 }
