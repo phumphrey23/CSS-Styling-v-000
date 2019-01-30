@@ -5,14 +5,16 @@ selector{
 property: value;
 property: value;
 }
+
 */
+
 /*Type selector*/
 p{ /*selects all p elements*/
   font-size: 16px; /* 1em */
   line-height: 1em;
 }
 
-figcaption {
+figcaption { /* selects only the figcaption element tag */
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.5em;
@@ -20,4 +22,11 @@ figcaption {
   /* font: font-weight font-size/line-height font-family */
   color: #AAA;
   text-align: center;
+}
+
+/*Class selectors*/
+.milk-text{ /* selects elements with class="milk-text"*/
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
 }
