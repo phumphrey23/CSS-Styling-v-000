@@ -33,7 +33,7 @@ figcaption { /* selects only the figcaption element tag */
 
 /* ID selectors (apply to one unique element per page)*/
 #logo{ /* selects elements with id="logo"*/
-  background: aqua;  
+  background: aqua;
 }
 
 /* Descendent Selector */
